@@ -6,21 +6,22 @@ html {
 *::before,
 *::after {
     box-sizing: inherit;
+    margin: 0;
 }
 
 /* General Text Styling */
 h1 {
     font-family: "Source Serif Pro", serif;
-    font-size: 4em;
-    letter-spacing: -0.05em;
+    font-size: 4rem;
+    letter-spacing: -0.05rem;
     font-weight: 600;
     margin: 0;
 }
 
 h2 {
     font-family: "Source Sans Pro", serif;
-    font-size: 1.3em;
-    letter-spacing: 0.15em;
+    font-size: 1.3rem;
+    letter-spacing: 0.15rem;
     text-transform: uppercase;
     margin: 0;
 }
@@ -28,24 +29,36 @@ h2 {
 h3 {
     display: inline-block;
     font-family: "Source Sans Pro", serif;
-    font-size: 1.5em;
-    letter-spacing: 0.15em;
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem;
     text-transform: uppercase;
     margin: 0;
     background: green;
-    padding: 0.15em;
-    margin-bottom: 1em;
+    padding: 0.15rem;
+    margin-bottom: 1rem;
 }
 
 h3.highlight {
     background: green;
-    padding: 1em;
+    padding: 1rem;
+}
+
+h4 {
+    font-family: "Source Serif Pro", serif;
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-family: "Source Serif Pro", serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 0.5rrem;
 }
 
 p {
     font-family: "Source Serif Pro", serif;
     margin: 0;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 /* Landing Section */
@@ -54,7 +67,7 @@ p {
     height: 100vh;
     width: 100%;
     margin: auto;
-    padding: 1em;
+    padding: 1rem;
     background: red;
     text-align: center;
 }
@@ -68,24 +81,39 @@ p {
 /* Resume Section */
 .resume_container {
     width: 100%;
-    padding: 1em;
+    padding: 1rem;
     background: orange;
 }
 
 .resume_section {
     width: 100%;
     background: yellow;
-    padding: 0.75em;
-    margin-bottom: 1em;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
 }
 
 .resume_section:last-of-type {
     margin-bottom: 0;
 }
 
+.resume_section ul {
+    font-family: "Source Serif Pro", serif;
+    font-size: 1rem;
+    padding-left: 1em;
+}
+
+.under_heading {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.under_heading:last-of-type {
+    margin-bottom: 0;
+}
+
 /* Footer */
 footer {
-    padding: 1em;
+    padding: 1rem;
 }
 
 footer p {
