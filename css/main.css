@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* Text Styling */
+h1 {
+    font-family: "Source Serif Pro", serif;
+    font-size: 4em;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Source Sans Pro", serif;
+    font-size: 1.3em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* Landing Section */
+.landing {
+    position: relative;
+    height: 95vh;
+    width: 100%;
+    margin: auto;
+    padding: 1em;
+    background: red;
+    text-align: center;
+}
+
+.landing_text_container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
