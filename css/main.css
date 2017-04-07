@@ -78,6 +78,13 @@ p {
     transform: translateY(-50%);
 }
 
+#headshot {
+    width: 60%;
+    max-width: 500px;
+    border-radius: 50%;
+    border: solid white 0.5rem;
+}
+
 /* Resume Section */
 .resume_container {
     width: 100%;
@@ -154,12 +161,16 @@ p {
 /* Footer */
 footer {
     padding: 1rem;
+    background: #333333;
+    text-align: center;
+}
+
+footer h2 {
+    color: grey;
+    margin-bottom: 1em;
 }
 
 footer p {
-    text-align: left;
-}
-
-footer ul {
-    list-style: none;
+    color: white;
+    line-height: 1.5;
 }
