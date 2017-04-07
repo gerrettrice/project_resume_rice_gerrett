@@ -92,14 +92,54 @@ p {
     margin-bottom: 1rem;
 }
 
-.resume_section:last-of-type {
-    margin-bottom: 0;
-}
-
 .resume_section ul {
     font-family: "Source Serif Pro", serif;
     font-size: 1rem;
     padding-left: 1em;
+}
+
+#affiliations {
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 760px) {
+    #tablet-flex {
+        display: -webkit-flex;
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    #skills {
+        width: 49%;
+        display: inline-block;
+        margin-right: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    #affiliations {
+        width: 49%;
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    #desktop-flex {
+        display: -webkit-flex;
+        display: flex;
+    }
+
+    #experience {
+        width: 60%;
+        display: inline-block;
+        margin-right: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    #education {
+        width: 40%;
+        display: inline-block;
+        margin-bottom: 0;
+    }
 }
 
 .under_heading {
