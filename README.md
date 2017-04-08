@@ -2,8 +2,8 @@
 
 * [Hosted Site](http://gerrettrice.com/project_resume_rice_gerrett/ "Gerrett Rice Digital Resume")
 * [GitHub Repo Link](https://github.com/gerrettrice/project_resume_rice_gerrett "GitHub Repo")
-* [HTML 5 Outliner](https://validator.w3.org/nu/?doc=http%3A%2F%2Fgerrettrice.com%2Fproject_resume_rice_gerrett%2F "HTML5 Outliner")
-* [W3C Validator](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fgerrettrice.com%2Fproject_resume_rice_gerrett%2F "W3C Validator")
+* [W3C Validator](https://validator.w3.org/nu/?doc=http%3A%2F%2Fgerrettrice.com%2Fproject_resume_rice_gerrett%2F "W3C Validator")
+* [HTML5 Outliner](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fgerrettrice.com%2Fproject_resume_rice_gerrett%2F "HTML5 Outliner")
 
 # Resources
 
